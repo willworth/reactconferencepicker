@@ -1,11 +1,12 @@
 import React from 'react';
 import Header from './components/Header';
-
+import Confpicker from './components/Confpicker';
 function App() {
   return (
     <div className="App">
       <Header/>
-      <h1>react conference picker</h1>
+      <Confpicker/>
+      
     </div>
   );
 }
